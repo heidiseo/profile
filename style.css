@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  /*text-align: center;*/
   color: #1F2041;
   background-color: rgb(245, 245, 245);
   line-height: normal;
@@ -10,7 +10,6 @@ body {
 
 h1 {
   font-size: 30px;
-  background-color: white;
 }
 
 body {
@@ -18,11 +17,17 @@ body {
   font-size: 16px;
 }
 
+.container {
+  margin-left: 140px;
+  margin-top: 107px;
+}
+
 
 .banner {
   background-size: cover;
   background-position: center;
   padding: 150px 0;
+  height: 300px;
 }
 
 .banner h1 {
@@ -61,6 +66,20 @@ body {
 #btn-background-blue:hover {
   color: #665687;
 }
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
 
 img {
   border-radius: 10%;
